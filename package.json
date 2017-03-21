@@ -1,0 +1,23 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "babel screencast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergiOn/Babel.git"
+  },
+  "author": "SergiOn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergiOn/Babel/issues"
+  },
+  "homepage": "https://github.com/SergiOn/Babel#readme",
+  "devDependencies": {
+    "node-static": "^0.7.9"
+  }
+}
