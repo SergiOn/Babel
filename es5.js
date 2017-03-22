@@ -4,4 +4,4 @@ var print = function print(message) {
   return console.log(message);
 };
 
-print('Hello Babel!!');
+print('Hello Babel!');
