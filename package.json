@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "babel es2015.js -o es5.js",
+    "build-watch": "babel es2015.js -o es5.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
