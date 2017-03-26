@@ -50,3 +50,5 @@ babel src -d dist --ignore *test.js
 <pre>
 node dist/async.js
 </pre>
+
+<h3>#6 JSX</h3>
