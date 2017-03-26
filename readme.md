@@ -35,3 +35,8 @@ babel src -o dist/es5.js
 <pre>
 babel src -d dist --minified
 </pre>
+
+**ignore**
+<pre>
+babel src -d dist --ignore *test.js
+</pre>
