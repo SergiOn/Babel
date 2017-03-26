@@ -40,3 +40,5 @@ babel src -d dist --minified
 <pre>
 babel src -d dist --ignore *test.js
 </pre>
+
+<h3>#4 Polyfill</h3>
