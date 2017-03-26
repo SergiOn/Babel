@@ -30,3 +30,8 @@ babel src -d dist
 babel src --out-file dist/es5.js
 babel src -o dist/es5.js
 </pre>
+
+**minified**
+<pre>
+babel src -d dist --minified
+</pre>
