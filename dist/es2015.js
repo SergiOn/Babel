@@ -1,1 +1,3 @@
-'use strict';var print=function print(message){return console.log(message)};print('Hello Babel!');
+const print = message => console.log(message);
+
+print('Hello Babel!');

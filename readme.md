@@ -42,3 +42,11 @@ babel src -d dist --ignore *test.js
 </pre>
 
 <h3>#4 Polyfill</h3>
+
+<h3>#5 ESNext</h3>
+<a target="_blank" href="http://babeljs.io/docs/plugins/">babel plugins (presets, stage)</a>
+
+**async**
+<pre>
+node dist/async.js
+</pre>
