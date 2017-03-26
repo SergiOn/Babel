@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "babel es2015.js -o es5.js",
-    "build-watch": "babel es2015.js -o es5.js -w",
+    "build": "babel src -d dist",
+    "build-watch": "babel src -d dist -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
     "presets": [
       "es2015"
-    ]
+    ],
+    "minified": true,
+    "ignore": "*test.js"
   },
   "repository": {
     "type": "git",
